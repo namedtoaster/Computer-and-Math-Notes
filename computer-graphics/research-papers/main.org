@@ -1,0 +1,18 @@
+#+TITLE: Miscellaneous Notes On Research Topics
+* List of research papers
+** [[http://graphics.pixar.com/library/ReflectanceModel/paper.pdf][A Reflectance Model for Computer Graphics - Robert L. Cook, Kenneth E. Torrance]]
+*** This paper presents a reflectance model that is more general than previous models - it is based on geometrical optics
+**** The basis of the model reflectance definition that relates the brightness of an object to the intensity and size of each light source that illuminates it
+**** The model predicts the directional distribution and spectral composition of the reflected light
+**** A procedure is described for calculating red, green, and blue (RGB) values from the spectral energy distribution
+**** The new reflectance model is then applied to the simulation of a metal and a plastic, with an explanation of why images rendered with previous models often look plastic, and how this plastic appearance can be avoided
+*** Energy vs. Intensity
+**** See [[http://cse.ssl.berkeley.edu/SegwayEd/lessons/light/measure3.html][here]] for a simple example of the difference between energy and intensity
+*** [[http://mathworld.wolfram.com/SolidAngle.html][Solid angle]]
+**** See [[https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/double-integrals-topic/v/double-integral-1][this]] video (and the following) for an explanation of double integrals
+**** See [[https://www.youtube.com/watch?v=bRwSZmJI87M][this]] video for an explanation of BRDF (bidirectional reflectance distribution function) and a short example of solid angles
+     \[d\omega_i\] = area of the differential solid angle
+*** Ambient light vs. Direct light
+**** What is ambient light?
+     Ambient light is all light received by an object that is not received directly from a light
+** [[http://delivery.acm.org/10.1145/810000/807507/p294-feibush.pdf?ip=75.161.33.161&id=807507&acc=ACTIVE%2520SERVICE&key=F26C2ADAC1542D74%252E23905D0693FF5B70%252E1A9C09B6AA7F3FDF%252E4D4702B0C3E38B35&__acm__=1524992503_304ba5a4efe3b340797086c3f3b3a953#URLTOKEN#][Synthetic Texturing Using Digital Filters - Eliot A. Feibush, Marc Levoy, Robert L. Cook - 1980]]

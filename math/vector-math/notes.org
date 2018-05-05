@@ -1,0 +1,9 @@
+#+TITLE: Vector Math Notes
+* Dot product of two vectors
+** The dot product of two vectors:
+   \[\vec{A}\cdot \vec{B}=\parallel\vec{A}\parallel \parallel\vec{B}\parallel\cos{\theta}\]
+   The \[\parallel\vec{A}\parallel\] means the length of said vector
+
+   For unit vectors, this is pretty easy. Since the length of both vectors is 1, that means that the dot product of any two unit vectors is \[\cos\theta\]
+
+   [[http://tutorial.math.lamar.edu/Classes/CalcII/DotProduct.aspx][Here's]] the proof
